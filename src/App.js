@@ -3,7 +3,7 @@ import { Switch, Route, Redirect } from "react-router-dom";
 import { connect } from "react-redux";
 import { createStructuredSelector } from 'reselect';
 import { setCurrentUser } from "./redux/user/user.action";
-import { selectCurrentUser } from './redux/user/user.selectos';
+import { selectCurrentUser } from './redux/user/user.selectors';
 import './App.css';
 import HomePage from "./pages/homepage/homepage.component";
 import ShopPage from "./pages/shoppage/shop.component";
